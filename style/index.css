@@ -1,0 +1,70 @@
+@import url(./hero.css);
+@import url(./shop.css);
+/* @import url(https://db.onlinewebfonts.com/c/917a69d24b88e2d4d2ca803c0605bd59?family=Cera+PRO+Regular);
+:root {
+  --custom-font: "Cera PRO Regular"; /* Define the font family as a CSS variable */
+/* } */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.btn-primary {
+  display: inline;
+  align-items: center;
+  border-radius: 6px;
+  color: #fff;
+  padding: 9px 16px 7px 18px;
+  background: rgb(70, 163, 88);
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
+ul,
+li {
+  list-style: none;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  padding: 26px 0;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(177, 176, 176);
+}
+
+.nav_link:not(:last-child) {
+  margin-right: 50px;
+}
+.nav_link a {
+  color: rgb(61, 61, 61);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  position: relative;
+}
+.nav_link.active a {
+  color: rgb(43, 42, 42);
+  font-weight: bold;
+}
+.login_btn {
+  margin-left: 9px;
+}
+
+.search-icon {
+  margin-right: 30px;
+}
+
+.shop-icon {
+  margin-right: 30px;
+}
